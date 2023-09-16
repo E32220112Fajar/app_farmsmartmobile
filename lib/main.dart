@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import './splash_screen.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -8,9 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Farm Smart Mobile',
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: Text('kosong'),
-      ),
+      home: SplashScreen(),
     );
   }
 }
